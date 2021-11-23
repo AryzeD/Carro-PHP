@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!--autor da pagina-->
+        <meta name="author" content="Artur Soares de Sousa"/>
+
+        <!--mapa de caracteres unicode-->
+        <meta charset="UTF-8" />
+
+        <!-- Indexxar página nos motores de busca-->
+        <meta name="robots" content="index, follow"/>
+        <meta name="keyword" content="senai, desenvolvedor, front-end, front, end, desenvolvimento, sei, nem, artur, vespertino, taguatinga"/>
+        <meta name="description" content="Template HTML 5"/>
+
+        <!--design responsivo-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--favicon(icone no canto)-->
+        <link href="" rel="shortcut icon" type="image/png">
+
+        <!--css externo-->
+        <link href="css/estilo.css" rel="stylesheet" type="text/css" media="all">
+
+        <!--css interno-->
+        <style>
+
+            /*--aqui-->*/
+
+       </style>
+
+        <title>Titulo</title>
+    </head>
+    <body>
+        <h1>Registre o Carro</h1>
+        <hr />
+        <form action="php/controller/controller.php" method="post">
+            <label>Modelo:</label><br />
+            <input type="text" name="modelo" />
+            <br />
+            <br />
+            <label>Cor:</label><br />
+            <input type="text" name="cor" />
+            <br />
+            <br />
+            <label>Placa:</label><br />
+            <input type="text" name="placa" />
+            <br />
+            <br />
+            <label>Ano:</label><br />
+            <input type="number" name="ano" />
+            <br />
+            <br />
+            <label>Fabricante:</label><br />
+            <input type="text" name="fabricante" />
+            <br />
+            <br />
+            <button type="submit">Registrar</button>
+        </form>
+    </body>
+</html>
